@@ -1,4 +1,4 @@
-[11:00, 3/31/2022] C҉o҉m҉m҉a҉n҉d҉o҉: #include <stdio.h>
+#include <stdio.h>
 #include <conio.h>
 #include <time.h>
 #include <string.h>
