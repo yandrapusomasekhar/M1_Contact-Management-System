@@ -1,36 +1,4 @@
-#include <stdio.h>
-#include <conio.h>
-#include <time.h>
-#include <string.h>
-#include <stdlib.h>
-#include "tt.h"
-#include "welcome.c"
-
-FILE fulist;	/*user list file/
-FILE fuser;	/*current user data file/
-int nusers;
-int SELECTING =1;
-FILE fllist;	/*lesson list file/
-FILE flesson;	/*current lesson data file/
-
-/define current user and current lesson also/
-user cu;	/current user/
-session cs;	/current session/
-lesson cl;	/current lesson/
-char *day[7]={"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
-char *month[12]={"January","February","March","April","May","June","July","August","September","October","November","December"};
-
-char *text;
-
-
-void main(void)
-{
-	int r1;	/response 1, main nenu/
-	int r2;	/response 2, user select/
-
-
-   loadFiles…
-[11:07, 3/31/2022] C҉o҉m҉m҉a҉n҉d҉o҉: #include<stdio.h>
+#include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 #include<conio.h>
@@ -79,16 +47,16 @@ void main(void)
         printf("\xdb");
     }
     system("color 1b");
-    printf(" \n\t|____________________|\n");
+    printf(" \n\t|________________________________________________________|\n");
     printf("\t|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|\n");
-    printf("\t|  *WELCOME TO CHMSC SCHOOL BILLING SYSTEM PROJECT|  * |\n");
+    printf("\t|  **WELCOME TO CHMSC SCHOOL BILLING SYSTEM PROJECT|  ** |\n");
     printf("\n\t|                                                        |\n");
     printf("\t^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n");
     printf("\t|             DEVELOPED BY ITSOURCECODE.COM              |\n");
-    printf("\t|____________________|\n");
-    printf("\t|    ***************           |\n");
-    printf("\t|    ***************           |\n");
-    printf("\t|____________________|\n");
+    printf("\t|________________________________________________________|\n");
+    printf("\t|    *****************************************           |\n");
+    printf("\t|    *****************************************           |\n");
+    printf("\t|________________________________________________________|\n");
     printf("\n\tPLEASE ENTER ANY KEY TO CONTINUE");
     for(l=0; l<5; l++)
     {
@@ -237,15 +205,15 @@ void adding_records(int j)
     float fee_fee;//used in calculatin of fee of different class
     char cs='y';
     system("cls");
-    printf("\n\t************************");
+    printf("\n\t******************************************************************");
 
-    printf("\n\t                     *********                  ");
+    printf("\n\t                     ***************************                  ");
 
-    printf("\n\t********          ADD RECORD       ********");
+    printf("\n\t*********************          ADD RECORD       *******************");
 
-    printf("\n\t                     *********                  ");
+    printf("\n\t                     ***************************                  ");
 
-    printf("\n\t************************");
+    printf("\n\t******************************************************************");
     if (j==1)
     {
         while(cs=='y'||cs=='Y')
@@ -334,15 +302,15 @@ void searching_records(int j)
         {
             int p=1;
             system("cls");
-            printf("\n\t************************");
+            printf("\n\t******************************************************************");
 
-            printf("\n\t                    *********                  ");
+            printf("\n\t                    ***************************                  ");
 
-            printf("\n\t********   SEARCH RECORD     ********");
+            printf("\n\t*********************   SEARCH RECORD     *******************");
 
-            printf("\n\t                     *********                  ");
+            printf("\n\t                     ***************************                  ");
 
-            printf("\n\t************************");
+            printf("\n\t******************************************************************");
             printf("\n\n\t\tPLEASE CHOOSE SEARCH TYPE::");
             printf("\n\n\t\t1::Search by Name::");
             printf("\n\n\t\t2::Search by Cass::");
@@ -503,15 +471,15 @@ void update_records(int j)
         while(cs=='y'||cs=='Y')
         {
             system("cls");
-            printf("\n\t************************");
+            printf("\n\t******************************************************************");
 
-            printf("\n\t                    *********                  ");
+            printf("\n\t                    ***************************                  ");
 
-            printf("\n\t********   MODIFY RECORD     ********");
+            printf("\n\t*********************   MODIFY RECORD     *******************");
 
-            printf("\n\t                     *********                  ");
+            printf("\n\t                     ***************************                  ");
 
-            printf("\n\t************************");
+            printf("\n\t******************************************************************");
             printf("\n\n\t\tPLEASE CHOOSE MODIFY TYPE::");
             printf("\n\n\t\t1::Modify by Name::");
             printf("\n\n\t\t2::Modify by Name &Class::");
@@ -691,15 +659,15 @@ void update_records(int j)
 void deleting_records(int j)
 {
     system("cls");
-    printf("\n\t************************");
+    printf("\n\t******************************************************************");
 
-    printf("\n\t                     *********                  ");
+    printf("\n\t                     ***************************                  ");
 
-    printf("\n\t********          DELETE RECORD     ********");
+    printf("\n\t*********************          DELETE RECORD     *******************");
 
-    printf("\n\t                     *********                  ");
+    printf("\n\t                     ***************************                  ");
 
-    printf("\n\t************************");
+    printf("\n\t******************************************************************");
     FILE *temporary,*tmp1;
     int p=1;
     char name_s[50],cs='y';
@@ -793,15 +761,15 @@ void deleting_records(int j)
 void salary(int mm)
 {
     system("cls");
-    printf("\n\t************************");
+    printf("\n\t******************************************************************");
 
-    printf("\n\t                     *********                  ");
+    printf("\n\t                     ***************************                  ");
 
-    printf("\n\t********          SALARY     ********");
+    printf("\n\t*********************          SALARY     *******************");
 
-    printf("\n\t                     *********                  ");
+    printf("\n\t                     ***************************                  ");
 
-    printf("\n\t************************");
+    printf("\n\t******************************************************************");
     FILE *files,*temp_f;
     int p=1,day_s;
     char name_s[50],cs='y';
@@ -859,15 +827,15 @@ void salary(int mm)
 void fee(int mm)
 {
     system("cls");
-    printf("\n\t************************");
+    printf("\n\t******************************************************************");
 
-    printf("\n\t                     *********                  ");
+    printf("\n\t                     ***************************                  ");
 
-    printf("\n\t********          FEE     ********");
+    printf("\n\t*********************          FEE     *******************");
 
-    printf("\n\t                     *********                  ");
+    printf("\n\t                     ***************************                  ");
 
-    printf("\n\t************************");
+    printf("\n\t******************************************************************");
     FILE *files,*temp_f;
     int p=0;
     char name_s[50],cs='y';
