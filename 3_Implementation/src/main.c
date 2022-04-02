@@ -12,7 +12,7 @@ void update();                                                          // This 
 void search();                                                          // This function is used for serach the employees in the programs
 void department();                                                      // This function is used for the to serach the employee with the help of department name
 void name();                                                            // This function is used to saerch the employee with help of name
-int l=10;
+int l=20;
 void main()                                                             // This is the main function
 {
     int i,n;
