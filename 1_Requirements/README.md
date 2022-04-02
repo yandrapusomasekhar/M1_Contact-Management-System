@@ -1,2 +1,2 @@
-# M1_School-Billing-system
+# M1_Employee-Management-system
 # Requirements
