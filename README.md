@@ -11,3 +11,6 @@
 
 
 [![Analysis](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Analysis.yml/badge.svg)](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Analysis.yml)
+
+
+[![Bulid CI - windows](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Windows.yml/badge.svg)](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Windows.yml)
