@@ -14,3 +14,6 @@
 
 
 [![Bulid CI - windows](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Windows.yml/badge.svg)](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Windows.yml)
+
+
+[![Build_CI - Linux](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Linux.yml/badge.svg)](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Linux.yml)
