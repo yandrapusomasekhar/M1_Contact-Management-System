@@ -8,3 +8,6 @@
 
 
 [![Code Quality - Cppcheck](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/c-cpp.yml)
+
+
+[![Analysis](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Analysis.yml/badge.svg)](https://github.com/yandrapusomasekhar/M1_Employee_Management_system/actions/workflows/Analysis.yml)
